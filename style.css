@@ -156,13 +156,13 @@ nav ul li a:hover, .active {
 
 /* Volunteer Form */
 #volunteer {
-    background-color: #f4f4f4;
+    background-color: #007bff;
     padding: 60px 0;
 }
 
 #volunteer h2 {
     font-size: 36px;
-    color: #ff7f50;
+    color: #007bff;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -185,7 +185,7 @@ form {
 
 form label {
     font-size: 16px;
-    color: #ff7f50;
+    color: #007bff;
     margin-bottom: 8px;
     display: block;
 }
@@ -208,7 +208,7 @@ form textarea {
 }
 
 form button {
-    background-color: #ff7f50;
+    background-color: #007bff;
     color: white;
     padding: 15px 25px;
     font-size: 18px;
@@ -220,5 +220,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #e65c3a;
+    background-color: #007bff;
 }
