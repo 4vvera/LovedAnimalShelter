@@ -153,7 +153,166 @@ nav ul li a:hover, .active {
     border-radius: 10px;
   margin-right: 20px
 }
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Soft light gray background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Dark blue-gray for headings */
+}
+
+/* Navigation Bar */
+header {
+    background-color: #34495e; /* Blue-gray background */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 38px; /* Slightly larger heading */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Increased gap between navigation items */
+    padding: 10px 0;
+}
+
+header nav ul li {
+    font-size: 20px; /* Slightly larger font size for nav items */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ecf0f1; /* Light gray on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2980b9; /* Strong blue for the hero section */
+    color: white;
+    padding: 60px 0; /* Increased padding */
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px; /* Slightly larger heading size */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px; /* Slightly larger font size */
+    margin-bottom: 40px;
+}
+
+/* Adoptable Pets Section */
+.pets {
+    background-color: #ffffff; /* White background for the pet cards */
+    padding: 30px 0; /* Increased padding */
+}
+
+.pets h2 {
+    font-size: 24px; /* Larger heading size */
+    color: #34495e; /* Dark blue-gray */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Increased gap between filters */
+    margin-bottom: 20px; /* Increased bottom margin */
+}
+
+.filter label {
+    font-size: 10px; /* Slightly larger font size for labels */
+}
+
+.filter select {
+    padding: 5px; /* Increased padding */
+    font-size: 10px; /* Larger font size */
+    border-radius: 5px; /* Slightly larger border radius */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    background-color: #ecf0f1; /* Soft gray background */
+}
+
+.pet-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px; /* Increased gap between cards */
+}
+
+.pet-card {
+    background-color: #ecf0f1; /* Soft gray background for cards */
+    color: #34495e; /* Dark blue-gray for text */
+    padding: 6px; /* Slightly larger padding */
+    border-radius: 5px; /* Larger border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+    width: 12%; /* Increased width */
+    margin-bottom: 10px; /* Increased bottom margin */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+ /* pet cards */
+.pet-card:hover {
+    transform: scale(1.05); /* Slightly larger hover effect */
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; /* Larger radius for image */
+    margin-bottom: 6px; /* Slightly larger margin */
+}
+
+.pet-card h3 {
+    font-size: 12px; /* Slightly larger font size for pet name */
+    margin-bottom: 4px; /* Slightly larger margin */
+}
+
+.pet-card p {
+    font-size: 8px; /* Larger font size for description */
+    margin-bottom: 4px; /* Slightly larger margin */
+}
+
+.cta-btn {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 6px 10px; /* Slightly larger padding */
+    font-size: 8px; /* Larger font size */
+    border-radius: 15px; /* Larger border radius */
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #0063cc; /* Slightly darker blue on hover */
+}
 /* Volunteer Form */
 #volunteer {
     background-color: #white;
