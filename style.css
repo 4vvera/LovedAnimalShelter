@@ -277,38 +277,6 @@ header nav ul li a:hover {
     text-align: center;
     transition: transform 0.3s ease;
 }
- /* pet cards */
-.pet-card:hover {
-    transform: scale(1.05); /* Slightly larger hover effect */
-}
-
-.pet-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px; /* Larger radius for image */
-    margin-bottom: 6px; /* Slightly larger margin */
-}
-
-.pet-card h3 {
-    font-size: 12px; /* Slightly larger font size for pet name */
-    margin-bottom: 4px; /* Slightly larger margin */
-}
-
-.pet-card p {
-    font-size: 8px; /* Larger font size for description */
-    margin-bottom: 4px; /* Slightly larger margin */
-}
-
-.cta-btn {
-    background-color: #007bff; /* Blue button */
-    color: white;
-    padding: 6px 10px; /* Slightly larger padding */
-    font-size: 8px; /* Larger font size */
-    border-radius: 15px; /* Larger border radius */
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
 
 .cta-btn:hover {
     background-color: #0063cc; /* Slightly darker blue on hover */
