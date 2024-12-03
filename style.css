@@ -236,7 +236,7 @@ form button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;  /* Increased width of the pet card */
-    height: 500px;  /* Increased height of the pet card */
+    height: 850px;  /* Increased height of the pet card */
     text-align: center;
     margin-bottom: 30px;  /* Increased bottom margin for spacing */
 }
