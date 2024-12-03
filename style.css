@@ -260,7 +260,7 @@ form button {
 }
 
 .adopt-btn {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 12px 25px;  /* Larger padding for the button */
@@ -271,5 +271,5 @@ form button {
 }
 
 .adopt-btn:hover {
-    background-color: #45a049;
+    background-color: #0267d4;
 }
